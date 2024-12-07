@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <string name="action_settings">समायोजन</string>
+    <string name="products">उत्पादों</string>
+    <string name="suppliers">आपूर्तिकर्ताओं</string>
+    <string name="customers">ग्राहकों</string>
+    <string name="pos">स्थिति</string>
+    <string name="expense">व्यय</string>
+    <string name="report">रिपोर्ट</string>
+    <string name="all_orders">सभी आदेश</string>
+    <string name="all_sales">सभी बिक्री</string>
+    <string name="daily">रोज</string>
+    <string name="monthly">महीने के</string>
+    <string name="yearly">सालाना</string>
+    <string name="customer_name">ग्राहक का नाम</string>
+    <string name="customer_cell">ग्राहक सेल</string>
+    <string name="customer_email">ग्राहक ईमेल</string>
+    <string name="customer_address">ग्राहक का पता</string>
+    <string name="add_customer">ग्राहक जोड़ें</string>
+    <string name="enter_customer_name">ग्राहक का नाम दर्ज करें</string>
+    <string name="enter_customer_cell">ग्राहक सेल दर्ज करें</string>
+    <string name="enter_customer_address">ग्राहक का पता दर्ज करें</string>
+    <string name="customer_successfully_added">ग्राहक सफलतापूर्वक जोड़ा गया</string>
+
+    <string name="all_customer">सभी ग्राहक</string>
+    <string name="no_customer_found">कोई ग्राहक नहीं मिला!</string>
+    <string name="all_suppliers">सभी आपूर्तिकर्ता</string>
+    <string name="no_suppliers_found">कोई आपूर्तिकर्ता नहीं मिला!</string>
+
+    <string name="add_suppliers">आपूर्तिकर्ता जोड़ें</string>
+    <string name="enter_suppliers_name">आपूर्तिकर्ता नाम दर्ज करें</string>
+    <string name="enter_suppliers_contact_person_name">आपूर्तिकर्ता संपर्क व्यक्ति का नाम दर्ज करें</string>
+    <string name="enter_suppliers_cell">आपूर्तिकर्ता सेल दर्ज करें</string>
+    <string name="enter_valid_email">मान्य ईमेल दर्ज करें</string>
+    <string name="enter_suppliers_address">आपूर्तिकर्ता पता दर्ज करें</string>
+    <string name="suppliers_successfully_added">आपूर्तिकर्ता सफलतापूर्वक जोड़ा गया</string>
+    <string name="failed">अनुत्तीर्ण होना</string>
+
+    <string name="product_name_cannot_be_empty">उत्पाद का नाम खाली नहीं हो सकता!</string>
+    <string name="product_category_cannot_be_empty">उत्पाद श्रेणी खाली नहीं हो सकती!</string>
+    <string name="product_sell_price_cannot_be_empty">उत्पाद विक्रय मूल्य रिक्त नहीं हो सकता!</string>
+    <string name="product_stock_cannot_be_empty">उत्पाद स्टॉक खाली नहीं हो सकता!</string>
+    <string name="product_supplier_cannot_be_empty">उत्पाद आपूर्तिकर्ता खाली नहीं हो सकता!</string>
+    <string name="product_weight_cannot_be_empty">उत्पाद का वजन खाली नहीं हो सकता!</string>
+    <string name="product_successfully_added">उत्पाद सफलतापूर्वक जोड़ा गया</string>
+    <string name="something_went_wrong">कुछ गलत हो गया</string>
+
+
+    <string name="add_product">उत्पाद जोड़ें</string>
+    <string name="product_details">उत्पाद विवरण</string>
+    <string name="product_code">उत्पाद कोड</string>
+    <string name="product_description">उत्पाद वर्णन</string>
+    <string name="unit_product_sell_price">यूनिट उत्पाद विक्रय मूल्य</string>
+    <string name="product_sell_price">उत्पाद बेचने की कीमत</string>
+    <string name="product_stock">उत्पाद स्टॉक</string>
+    <string name="product_weight">उत्पाद - भार</string>
+    <string name="select_product_weight_unit">उत्पाद वजन इकाई का चयन करें</string>
+    <string name="product_weight_unit">उत्पाद वजन इकाई</string>
+    <string name="select_supplier">आपूर्तिकर्ता का चयन करें</string>
+    <string name="product_supplier">उत्पाद आपूर्तिकर्ता</string>
+    <string name="choose_product_image">उत्पाद छवि चुनें</string>
+    <string name="database_backup">डेटाबेस बैकअप</string>
+    <string name="database_import">डेटाबेस आयात</string>
+
+
+    <string name="year_2020">वर्ष 2020</string>
+    <string name="total_sales">संपूर्ण बिक्री : </string>
+    <string name="search_here">यहाँ ढूँढे. . . .</string>
+    <string name="no_order_found">कोई आदेश नहीं मिला</string>
+    <string name="no_product_found">कोई उत्पाद नहीं मिला</string>
+    <string name="submit_order">आदेश प्रस्तुत</string>
+    <string name="all_sales_report">सभी बिक्री रिपोर्ट</string>
+    <string name="all_expense_report">सभी व्यय रिपोर्ट</string>
+    <string name="monthly_sales_graph">मासिक बिक्री ग्राफ</string>
+    <string name="monthly_expense_graph">मासिक व्यय ग्राफ</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+
+    <string name="shop_information">दुकान की जानकारी</string>
+    <string name="data_backup">डेटा बैकअप</string>
+    <string name="shop_name">दुकान का नाम</string>
+    <string name="shop_contact_number">दुकान संपर्क नंबर</string>
+    <string name="shop_email">शॉप ईमेल</string>
+    <string name="shop_address">दुकान का पता</string>
+    <string name="currency_symbol">मुद्रा चिन्ह</string>
+    <string name="shop_currency">दुकान की मुद्रा</string>
+    <string name="edit">संपादित करें</string>
+    <string name="update_information">जानकारी अपडेट करें</string>
+    <string name="product_category">उत्पाद श्रेणी</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="payment">भुगतान</string>
+    <string name="submit">प्रस्तुत</string>
+    <string name="add_to_cart">कार्ट में जोड़ें</string>
+    <string name="product_name">प्रोडक्ट का नाम</string>
+    <string name="weight">वजन:</string>
+    <string name="price">कीमत</string>
+
+    <string name="unit_product_buy_price"> यूनिट उत्पाद खरीदें मूल्य </string>
+    <string name="supplier_name">आपूर्तिकर्ता का नाम</string>
+    <string name="supplier_contact_person">आपूर्तिकर्ता संपर्क व्यक्ति</string>
+
+    <string name="supplier_cell">आपूर्तिकर्ता सेल</string>
+
+    <string name="supplier_email">आपूर्तिकर्ता ईमेल</string>
+
+    <string name="supplier_address">आपूर्तिकर्ता पता</string>
+
+    <string name="add_supplier">आपूर्तिकर्ता जोड़ें</string>
+    <string name="monthly_expense_in_graph">ग्राफ में मासिक व्यय</string>
+    <string name="year">साल</string>
+    <string name="monthly_expense_report">मासिक व्यय रिपोर्ट</string>
+    <string name="total_expense">कुल खर्च: </string>
+    <string name="monthly_sales_report">मासिक बिक्री रिपोर्ट</string>
+    <string name="all_expense">सभी व्यय</string>
+    <string name="shop_name_cannot_be_empty">दुकान का नाम खाली नहीं हो सकता</string>
+    <string name="shop_contact_cannot_be_empty">दुकान का संपर्क खाली नहीं हो सकता</string>
+    <string name="shop_address_cannot_be_empty">दुकान का पता खाली नहीं हो सकता</string>
+    <string name="shop_currency_cannot_be_empty">दुकान की मुद्रा खाली नहीं हो सकती</string>
+    <string name="shop_information_updated_successfully">दुकान की जानकारी अद्यतन सफलतापूर्वक</string>
+    <string name="enter_local_database_backup_name">स्थानीय डेटाबेस बैकअप नाम दर्ज करें</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं न</string>
+    <string name="unable_to_create_directory_retry">डायरेक्टरी बनाने में अक्षम। पुन: प्रयास करें</string>
+    <string name="database_restore">डेटाबेस पुनर्स्थापित करें:</string>
+    <string name="unable_to_restore_retry">पुनर्स्थापित करने में असमर्थ। पुन: प्रयास करें</string>
+    <string name="backup_folder_not_present">बैकअप फ़ोल्डर मौजूद नहीं है</string>
+    <string name="all_product">सभी उत्पाद</string>
+    <string name="product_cart">उत्पाद कार्ट</string>
+    <string name="no_product_in_cart">कार्ट में कोई उत्पाद नहीं</string>
+    <string name="order_done_successful">आदेश सफल हुआ</string>
+    <string name="select_payment_method">भुगतान का तरीका चुनें</string>
+    <string name="select_order_type">का चयन करें प्रकार</string>
+    <string name="select_customer">ग्राहक चुनें</string>
+    <string name="order_history">आदेश इतिहास</string>
+    <string name="order_details">ऑर्डर का विवरण</string>
+    <string name="total_price">कुल कीमत: </string>
+    <string name="add_expense">व्यय जोड़ें</string>
+    <string name="hi_welcome">हैलो! स्वागत हे</string>
+    <string name="product_removed_from_cart">उत्पाद कार्ट से निकाला गया</string>
+    <string name="backup_completed_successfully">बैकअप सफलतापूर्वक पूरा हुआ</string>
+    <string name="unable_to_backup_database_retry">बैकअप डेटाबेस में असमर्थ। पुन: प्रयास करें</string>
+    <string name="database_Import_completed">डेटाबेस आयात पूरा हुआ</string>
+    <string name="unable_to_import_database_retry">डेटाबेस आयात करने में असमर्थ। पुन: प्रयास करें</string>
+    <string name="want_to_delete_customer">ग्राहक को हटाना चाहते हैं?</string>
+    <string name="customer_deleted">ग्राहक को हटा दिया गया</string>
+    <string name="note">ध्यान दें:</string>
+    <string name="want_to_delete_expense">खर्च को हटाना चाहते हैं?</string>
+    <string name="expense_deleted">व्यय समाप्त हो गया</string>
+    <string name="order_id">आदेश ID:</string>
+    <string name="payment_method">भुगतान का तरीका:</string>
+    <string name="order_type">आदेश प्रकार:</string>
+    <string name="want_to_delete_supplier">सप्लायर को हटाना चाहते हैं?</string>
+    <string name="supplier_deleted">आपूर्तिकर्ता हटा दिया गया</string>
+    <string name="quantity">मात्रा:</string>
+    <string name="date">तारीख:</string>
+    <string name="supplier">देने वाला:</string>
+    <string name="buy_price">मूल्य खरीदें:</string>
+    <string name="sell_price">विक्रय मूल्य:</string>
+    <string name="want_to_delete_product">उत्पाद हटाना चाहते हैं?</string>
+    <string name="product_deleted">उत्पाद हटा दिया गया</string>
+    <string name="product_added_to_cart">उत्पाद कार्ट में जोड़ा गया</string>
+    <string name="product_already_added_to_cart">उत्पाद पहले से ही कार्ट में जोड़ा गया</string>
+    <string name="product_added_to_cart_failed_try_again">कार्ट में जोड़ा गया उत्पाद विफल! पुनः प्रयास करें</string>
+    <string name="press_once_again_to_exit">बाहर निकलने के लिए एक बार फिर से दबाएं!</string>
+    <string name="type_something_to_search">खोजने के लिए कुछ टाइप करें</string>
+    <string name="expense_name_cannot_be_empty">व्यय नाम रिक्त नहीं हो सकता</string>
+    <string name="expense_amount_cannot_be_empty">व्यय राशि खाली नहीं हो सकती</string>
+    <string name="expense_successfully_added">व्यय सफलतापूर्वक जोड़ा गया</string>
+
+
+    <string name="qr_barcode_scanner">क्यूआर या बारकोड स्कैनर</string>
+    <string name="camera_permission">कैमरा अनुमति आवश्यक है</string>
+    <string name="export_data_to_excel">एक्सेल में डेटा निर्यात करें</string>
+    <string name="import_from_excel">एक्सेल से आयात करें</string>
+    <string name="data">डेटा</string>
+    <string name="export_all_data_to_excel">एक्सेल में सभी डेटा निर्यात करें</string>
+    <string name="data_export_fail">डेटा निर्यात विफल</string>
+    <string name="data_successfully_exported">डेटा सफलतापूर्वक निर्यात किया गया</string>
+    <string name="data_exporting_please_wait">डेटा निर्यात। कृपया प्रतीक्षा करें। । ।</string>
+    <string name="no_file_found">कोई फ़ाइल नहीं मिली</string>
+    <string name="data_importing_please_wait">डेटा आयात कर रहा है। कृपया प्रतीक्षा करें। । ।</string>
+    <string name="data_successfully_imported">डेटा सफलतापूर्वक आयात किया गया</string>
+    <string name="data_import_fail">डेटा आयात विफल</string>
+    <string name="error">त्रुटि</string>
+    <string name="order_receipt">आदेश रसीद</string>
+    <string name="print">छाप</string>
+    <string name="share">शेयर</string>
+    <string name="open_pdf">पीडीएफ खोलें</string>
+    <string name="open_with_external_pdf_reader">बाहरी पीडीएफ रीडर के साथ खोलें</string>
+    <string name="generate_pdf_receipt">पीडीएफ रसीद</string>
+    <string name="edit_customer">ग्राहक संपादित करें</string>
+    <string name="edit_suppliers">आपूर्तिकर्ता संपादित करें</string>
+    <string name="expense_name">व्यय नाम</string>
+    <string name="expense_note_if_any">व्यय नोट (यदि कोई हो)</string>
+    <string name="expense_note">व्यय नोट</string>
+    <string name="expense_amount">व्यय राशि</string>
+    <string name="expense_date">व्यय तिथि</string>
+    <string name="expense_time">व्यय समय</string>
+    <string name="edit_expense">व्यय संपादित करें</string>
+    <string name="update_successfully">सफलतापूर्वक अपडेट करें</string>
+    <string name="categories">श्रेणियाँ</string>
+    <string name="category_name">श्रेणी नाम</string>
+    <string name="category_deleted">श्रेणी हटा दी गई</string>
+    <string name="want_to_delete_category">श्रेणी हटाना चाहते हैं?</string>
+    <string name="add_category">कैटेगरी जोड़े</string>
+    <string name="enter_category_name">श्रेणी का नाम दर्ज करें</string>
+    <string name="category_added_successfully">श्रेणी को सफलतापूर्वक जोड़ा गया</string>
+    <string name="update_category">अद्यतन श्रेणी</string>
+    <string name="category_updated">श्रेणी अद्यतन</string>
+    <string name="edit_category">श्रेणी संपादित करें</string>
+    <string name="payment_method_deleted">भुगतान विधि हटा दी गई</string>
+    <string name="want_to_delete">हटाना चाहते हैं?</string>
+    <string name="all_payment_method">सभी भुगतान विधि</string>
+    <string name="payment_method_name">भुगतान विधि का नाम</string>
+    <string name="add_payment_method">भुगतान विधि जोड़ें</string>
+    <string name="enter_payment_method_name">भुगतान विधि नाम लिखें</string>
+    <string name="successfully_added">सफलतापूर्वक शामिल</string>
+    <string name="update_payment_method">अद्यतन भुगतान विधि</string>
+    <string name="successfully_updated">सफलतापूर्वक उत्परिवर्तित</string>
+    <string name="payment_methods">भुगतान की विधि</string>
+    <string name="tax_in_percentage">प्रतिशत में कर (%)</string>
+    <string name="sub_total">उप कुल</string>
+    <string name="total_tax">कुल कर</string>
+    <string name="discount">छूट</string>
+    <string name="discount_cant_be_greater_than_total_price">छूट कुल मूल्य से अधिक हो सकती है</string>
+    <string name="tax">कर</string>
+    <string name="stock">भण्डार</string>
+    <string name="stock_is_low_please_update_stock">स्टॉक कम है। कृपया स्टॉक अपडेट करें</string>
+    <string name="available_stock">मौजूदा भंडार</string>
+    <string name="tatal_discount">कुल छूट</string>
+    <string name="net_sales">कुल बिक्री</string>
+    <string name="total_discount">कुल छूट</string>
+
+
+    <string name="connect_fail">प्रिंटर कनेक्शन त्रुटि</string>
+    <string name="connect_lost">डिस्कनेक्ट किया गया</string>
+    <string name="not_connected">कनेक्शन स्थापित नहीं है</string>
+    <string name="title_paired_devices">युग्मित उपकरण</string>
+    <string name="title_other_devices">अन्य उपकरण</string>
+    <string name="button_scan">उपकरणों को स्कैन करें</string>
+    <string name="none_paired">कोई उपकरण नहीं मिला</string>
+    <string name="scanning">खोज कर</string>
+    <string name="select_device">डिवाइस का चयन करें</string>
+    <string name="none_found">कोई उपकरण नहीं मिला</string>
+    <string name="connected">से कनेक्ट</string>
+    <string name="bluetooth_not_available">ब्लूटूथ उपलब्ध नहीं है</string>
+    <string name="turnon_bluetooth">ब्लूटूथ चालू करें</string>
+    <string name="pic_load_error">चित्र लोड करने में त्रुटि</string>
+    <string name="print_succ">प्रिंट सफलतापूर्वक किया गया</string>
+    <string name="print_error">छपाई में त्रुटि</string>
+
+
+    <string name="reset">रीसेट</string>
+    <string name="change_order_status">ऑर्डर की स्थिति बदलें</string>
+    <string name="please_change_order_status_to_complete_or_cancel">कृपया आदेश स्थिति को पूर्ण या रद्द करने के लिए बदलें</string>
+    <string name="cancel_order">आदेश रद्द</string>
+    <string name="order_completed">आर्डर पूरा हुआ</string>
+    <string name="order_updated">आदेश अद्यतन</string>
+    <string name="backup_to_google_drive">गूगल ड्राइव के लिए बैकअप</string>
+    <string name="order_status">आदेश की स्थिति</string>
+    <string name="select_year">वर्ष का चयन करें</string>
+    <string name="order_type_deleted">आदेश प्रकार हटाया गया</string>
+    <string name="update_order_type">आदेश प्रकार अपडेट करें</string>
+    <string name="order_type_name">आदेश प्रकार का नाम</string>
+    <string name="unit">इकाई</string>
+    <string name="unit_deleted">इकाई हटाई गई</string>
+    <string name="weight_unit_name">वजन इकाई का नाम</string>
+    <string name="update">अद्यतन</string>
+    <string name="update_unit">अद्यतन इकाई</string>
+    <string name="add_order_type">आदेश प्रकार जोड़ें</string>
+    <string name="add_unit">इकाई जोड़ें</string>
+
+</resources>

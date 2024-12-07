@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.smartpos">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+
+        android:name="com.app.smartpos.utils.MultiLanguageApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.app.smartpos.settings.unit.EditUnitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.smartpos.settings.unit.AddUnitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.smartpos.settings.unit.UnitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.smartpos.settings.order_type.EditOrderTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.smartpos.settings.order_type.AddOrderTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.smartpos.settings.order_type.OrderTypeActivity"
+            android:exported="false" />
+        <activity android:name="com.app.smartpos.orders.DeviceListActivity" />
+        <activity android:name="com.app.smartpos.settings.payment_method.EditPaymentMethodActivity" />
+        <activity android:name="com.app.smartpos.settings.payment_method.AddPaymentMethodActivity" />
+        <activity android:name="com.app.smartpos.settings.payment_method.PaymentMethodActivity" />
+        <activity android:name="com.app.smartpos.settings.categories.EditCategoryActivity" />
+        <activity android:name="com.app.smartpos.settings.categories.AddCategoryActivity" />
+        <activity android:name="com.app.smartpos.settings.categories.CategoriesActivity" />
+        <activity android:name="com.app.smartpos.expense.EditExpenseActivity" />
+        <activity android:name="com.app.smartpos.suppliers.EditSuppliersActivity" />
+        <activity android:name="com.app.smartpos.customers.EditCustomersActivity" />
+        <activity android:name="com.app.smartpos.product.EditProductScannerViewActivity" />
+        <activity android:name="com.app.smartpos.pdf_report.ViewPDFActivity" />
+        <activity android:name="com.app.smartpos.pos.ScannerActivity" />
+        <activity android:name="com.app.smartpos.product.ScannerViewActivity" />
+        <activity android:name="com.app.smartpos.product.EditProductActivity" />
+        <activity android:name="com.app.smartpos.settings.backup.BackupActivity" />
+        <activity android:name="com.app.smartpos.settings.shop.ShopInformationActivity" />
+        <activity android:name="com.app.smartpos.report.ExpenseGraphActivity" />
+        <activity android:name="com.app.smartpos.report.ExpenseReportActivity" />
+        <activity android:name="com.app.smartpos.expense.AddExpenseActivity" />
+        <activity android:name="com.app.smartpos.settings.SettingsActivity" />
+        <activity android:name="com.app.smartpos.expense.ExpenseActivity" />
+        <activity android:name="com.app.smartpos.report.GraphReportActivity" />
+        <activity android:name="com.app.smartpos.report.SalesReportActivity" />
+        <activity android:name="com.app.smartpos.report.ReportActivity" />
+        <activity android:name="com.app.smartpos.orders.OrderDetailsActivity" />
+        <activity android:name="com.app.smartpos.orders.OrdersActivity" />
+        <activity android:name="com.app.smartpos.pos.ProductCart" />
+        <activity android:name="com.app.smartpos.pos.PosActivity" />
+        <activity android:name="com.app.smartpos.product.AddProductActivity" />
+        <activity android:name="com.app.smartpos.product.ProductActivity" />
+        <activity android:name="com.app.smartpos.suppliers.AddSuppliersActivity" />
+        <activity android:name="com.app.smartpos.suppliers.SuppliersActivity" />
+        <activity android:name="com.app.smartpos.customers.AddCustomersActivity" />
+        <activity android:name="com.app.smartpos.customers.CustomersActivity" />
+        <activity android:name="com.app.smartpos.HomeActivity" />
+        <activity
+            android:name="com.app.smartpos.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_application_id" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
